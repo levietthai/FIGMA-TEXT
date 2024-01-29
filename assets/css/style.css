@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app {
+    background-color: #E6EAF8;
+    display: flex;
+    width: 1600px;
+    height: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    padding: 30px 30px;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.header {
+
+}
+
+.use {
+    display: block;
+    margin: 16px 0;
+    font-size: 1.6rem;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.search {
+    border: 1px solid #ccc;
+    width: 300px;
+    padding: 16px;
+    border-radius: 3px;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.search-icon {
+    margin: 0 8px;
+}
+
+.input-search {
+    border: none;
+    outline: none;
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    text-decoration: none;
+    padding: 16px;
+    font-size: 1.6rem;
+} 
+
+.item:hover {
+    background-color: #849fff;
+    border: 1px solid #849fff;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.container {
+    margin: 100px 0;
+}
+.container-list-two,
+.container-list-one {
+    width: 100%px;
+    height: 200px;
+    display: flex;
+}
+
+.container-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    align-items: flex-start;
+    width: 33.33333%;
+}
+
+.container-info:hover {
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.avatar {
+    background-image: url(/assets/img/img-1.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 98px;
+}
+
+.mine {
+   margin-left: 16px;
+}
+
+
+.header-info {
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.name-info {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.skill-info {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.skill {
+    border: 1px solid #849fff;
+    color: #516FD4;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 0 8px 8px 0;
+}
+
+
